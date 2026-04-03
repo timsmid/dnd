@@ -1,0 +1,12 @@
+#!/bin/bash
+set -euo pipefail
+BASEDIR=$(dirname "${0}")
+
+# Create site from docs.
+cd "${BASEDIR}/../"
+mkdocs build
+
+# Commit and push docs.
+git add .
+git commit -m "Update site."
+git push

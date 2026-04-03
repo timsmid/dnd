@@ -1,0 +1,26 @@
+site_name: DND
+docs_dir: DND
+site_dir: docs
+site_url: https://dnd.timsmid.nl/
+
+theme:
+  name: 'material'
+  language: nl
+  palette:
+    primary: green
+    accent: green
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+
+plugins:
+  - awesome-nav
+  - file-filter:
+      exclude_glob:
+        - '**.md'
+      include_tag:
+        - publish
+  - pagetree
+  - roamlinks
+  - search
