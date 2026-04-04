@@ -5,6 +5,7 @@ BASEDIR=$(dirname "${0}")
 # Create site from docs.
 cd "${BASEDIR}/../"
 mkdocs build
+cp CNAME docs/CNAME
 
 # Commit and push docs.
 git add .
