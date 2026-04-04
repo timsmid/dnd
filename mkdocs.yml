@@ -24,3 +24,6 @@ plugins:
   - pagetree
   - roamlinks
   - search
+
+extra_css:
+  - style.css
