@@ -16,6 +16,7 @@ theme:
 
 plugins:
   - awesome-nav
+  - exclude-unused-files
   - file-filter:
       exclude_glob:
         - '**.md'
