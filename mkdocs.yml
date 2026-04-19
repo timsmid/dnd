@@ -17,6 +17,7 @@ theme:
 plugins:
   - awesome-nav
   - exclude-unused-files
+  - remove_sections
   - file-filter:
       exclude_glob:
         - '**.md'
