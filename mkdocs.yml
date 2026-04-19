@@ -4,7 +4,7 @@ site_dir: docs
 site_url: https://dnd.timsmid.nl/
 
 theme:
-  name: 'material'
+  name: material
   language: nl
   palette:
     primary: green
@@ -17,7 +17,8 @@ theme:
 plugins:
   - awesome-nav
   - exclude-unused-files
-  - remove_sections
+  - remove_sections:
+      section_replace_with: ''
   - file-filter:
       exclude_glob:
         - '**.md'
